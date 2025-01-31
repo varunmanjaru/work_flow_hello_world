@@ -8,6 +8,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-      - name: Print name
+      - name: print-name
         run: echo "work_flow_hellow_world"
 
