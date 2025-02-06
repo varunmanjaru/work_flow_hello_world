@@ -1,13 +1,17 @@
 name: print-name
 
-on: push
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  print-name:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: print-name
-        run: echo "work_flow_hellow_world"
+      - name: Print Name
+        run: echo "workflow_hello_world"
 
