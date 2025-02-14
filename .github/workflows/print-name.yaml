@@ -13,5 +13,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print-name
-        run: echo "workflow_helloo_world"
+        run: echo "print-name"
 
