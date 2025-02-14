@@ -12,6 +12,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Print Name
+      - name: print-name
         run: echo "workflow_hello_world"
 
